@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*******************navigation bar starts here******************/
+.navbar {
+    border-radius: 0px;
+}
+
+.nav li a , .navbar-header a{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: whitesmoke !important;
+}
+
+.nav li a:hover{
+    color:cornflowerblue!important;
+}
+
+.navbar-default {
+    background-color:#3e3042;
+    border-color: transparent;
+    margin-bottom: 0px !important;
+}
+
+.navbar-default .navbar-nav>.active>a{
+    color:cornflowerblue!important;
+    background-color: transparent !important;
+}
+/*******************navigation bar ends here******************/
+
+
+
+
+
+
+
+
+/*******************section 1 starts here******************/
+.section1{
+    background: url(/images/bgImage.png);
+    background-size: cover;
+    height: 94.5vh;
+    clip-path:polygon(0% 0% , 100% 0% , 100% 60% , 50% 100% , 0% 60%);
+    text-align: center;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.innerSec1  h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4em; 
+    text-shadow: 5px white;
+    font-family: 'Monoton', cursive;
+    letter-spacing: 5px;
+}
+
+.innerSec1 p{
+    color: #d9d9d9;
+    font-size: 2em;
+}
+
+.innerSec1 a{
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 400px;
+    text-decoration: none;
+    font-size: 2em;
+    box-shadow: 0px 0px 10px 0px black;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px whitesmoke solid;
+}
+
+.leftBut{
+    background-color: cornflowerblue;
+    color:#fefae0;
+}
+
+.rightBut{
+    color: #fefae0!important;
+}
+
+.rightBut:hover{
+    color: whitesmoke!important;
+}
+
+.innerSec1  a:hover{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    transform: translateY(-8px);
+    border-color: whitesmoke;  
+}
+/*******************section 1 ends here******************/
+
+
+
+
+
+
+
+/*******************section 2 starts here******************/
+.section2{
+    padding: 50px 0px;
+    background-color: #f7fff7;
+}
+
+.section2 h2{
+    font-weight: 1000;
+    font-size: 2.5em;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: cornflowerblue;
+    text-transform: uppercase;
+}
+
+.section2 h3{
+    color: #14213d;
+    font-size: 1.7em;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+        color:cornflowerblue;
+
+}
+
+.section2 p{
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box{
+    background-color: white;
+    padding:30px 10px;    
+}
+
+.box:hover{
+    box-shadow: 0px 0px 10px 0px grey;
+    transform: translateY(-10px);
+    opacity: 1;
+}
+/*******************section 2 ends here******************/
+
+
+
+
+
+
+
+/*******************section 3 starts here******************/
+.section3{  
+    height: 650px; 
+    position: relative;
+}
+
+.jumbotron{
+    width: 55%;
+    height: 80%;
+    position: absolute;
+    top:10%;
+    left:5%;
+    bottom: 10%;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.btn-primary:active:hover{
+    background-color: cornflowerblue;
+}
+
+.btn-primary{
+    background-color: cornflowerblue;
+}
+/*******************section 3 ends here******************/
+
+
+
+
+
+
+
+/*******************section 4 starts here******************/
+.section4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 100px 0px;
+    background:linear-gradient(165deg , cornflowerblue 55% ,white 0%);
+}
+
+.section4 h1{
+    font-weight: 1000;
+    font-size: 4em;
+    color: whitesmoke;
+    text-transform: uppercase;
+    border-bottom: 2px solid whitesmoke;
+    border-width: thick;
+}
+
+.thumbnail{
+    
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px grey;
+    margin-top: 70px;
+    border-radius: 3px;
+}
+
+.thumbnail:hover{
+    transform: translateY(-20px);
+}
+
+.pricing-header{
+    height: 10%;
+    background-color: #e1e1e1;
+    border-radius: 3px 3px 0px 0px;
+    border-color: black;
+}
+
+.pricing-header h2{
+    font-weight: 600;
+    color: #00d186;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pricing-body{
+    height: 80%;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+.pricing-body ul li{
+    list-style-type: none;
+}
+
+.pricing-body span{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.pricing-footer{
+    height: 10%;
+    background-color: #00d186;
+    border-radius: 0px 0px 3px 3px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.pricing-footer a{
+    font-weight: 600;
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+/*******************section 4 ends here******************/
+
+
+
+
+
+
+
+/*******************section 5 starts here******************/
+.section5{
+    padding: 50px;
+    padding-bottom: 0px;
+    background: linear-gradient( cornflowerblue , white)
+}
+
+.footForm{
+    padding: 50px;
+}
+
+.footForm button:hover{
+    background-color: transparent;
+    border-color: black;
+}
+
+.table tr th , .footForm{
+    font-size: 1.5em;
+    color: whitesmoke;
+    font-family: 'Inconsolata', monospace;
+}
+
+.col-md-4 .table tr td a{
+    font-size: 1.2em;
+    color: #22223b;
+    font-family: 'Karla', sans-serif;
+    
+}
+
+.table tr td :hover{
+    text-decoration:none;
+    color: #353535;
+}    
+
+.table>tbody>tr>td{
+    border: 0px solid transparent;
+    padding: 10px;
+}
+
+.contactPhoto{
+    padding: 50px;
+}
+
+.linkTable{
+   text-align: center;
+}
+
+.footBg{
+    margin-bottom: -20px;
+}
+/*******************section 5 ends here******************/
+
+
+
+
+/*********************media queries starts here********************/
+
+
+@media (max-width:768px){
+    
+    .jumbotron{
+        width: 70%;
+        height: 85%;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .jumbotron p{
+        font-size: 1.4em;
+    }
+    
+    .box{
+        margin: 0px 0px;
+    }
+    
+    .innerSec1  h1{
+        font-size: 3em;
+    }
+    
+}
+
+
+/*********************media queries ends here********************/
