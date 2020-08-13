@@ -6,6 +6,7 @@
 
 html{
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 p{
@@ -20,7 +21,7 @@ p{
 
 .nav li a , .navbar-header a{
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: whitesmoke !important;
 }
 
@@ -49,12 +50,10 @@ p{
 
 /*******************section 1 starts here******************/
 .section1{
-    background: url(/images/bgImage.png);
-    background-size: cover;
-    height: 94.5vh;
-    clip-path:polygon(0% 0% , 100% 0% , 100% 60% , 50% 100% , 0% 60%);
+    background: url(/images/bgImage.png) center center no-repeat;
+    height: 100vh;
+/*    clip-path:polygon(0% 0% , 100% 0% , 100% 60% , 50% 100% , 0% 60%);*/
     text-align: center;
-    z-index: 0;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -65,24 +64,24 @@ p{
     color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 4em; 
+    font-size: 4rem; 
     text-shadow: 5px white;
     font-family: 'Monoton', cursive;
-    letter-spacing: 5px;
+    letter-spacing: 0.5rem;
 }
 
 .innerSec1 p{
     color: #d9d9d9;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .innerSec1 a{
     display: inline-block;
-    padding: 15px 30px;
-    margin: 10px;
+    padding: 1.5rem 3rem;
+    margin: 1rem;
     border-radius: 400px;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 2rem;
     box-shadow: 0px 0px 10px 0px black;
     font-weight: bold;
     text-transform: uppercase;
@@ -124,7 +123,7 @@ p{
 
 .section2 h2{
     font-weight: 1000;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-family: 'Rubik Mono One', sans-serif;
     color: cornflowerblue;
     text-transform: uppercase;
@@ -132,7 +131,7 @@ p{
 
 .section2 h3{
     color: #14213d;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     font-family: 'Inconsolata', monospace;
     font-weight: bold;
         color:cornflowerblue;
@@ -140,7 +139,7 @@ p{
 }
 
 .section2 p{
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -184,6 +183,14 @@ p{
     flex-direction: column;
 }
 
+.jumbotron p{
+    font-size:1.2rem;
+}
+
+.jumbotron h1{
+    font-size: 2rem;
+}
+
 .btn-primary:active:hover{
     background-color: cornflowerblue;
 }
@@ -211,7 +218,7 @@ p{
 
 .section4 h1{
     font-weight: 1000;
-    font-size: 4em;
+    font-size: 4rem;
     color: whitesmoke;
     text-transform: uppercase;
     border-bottom: 2px solid whitesmoke;
@@ -245,7 +252,6 @@ p{
 }
 
 .pricing-header h2{
-    font-weight: 600;
     color: #00d186;
     font-weight: bold;
     text-transform: uppercase;
@@ -266,7 +272,7 @@ p{
 }
 
 .pricing-body span{
-    font-size: 4em;
+    font-size: 4rem;
     font-weight: bold;
 }
 
@@ -287,7 +293,7 @@ p{
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 /*******************section 4 ends here******************/
 
@@ -314,13 +320,13 @@ p{
 }
 
 .table tr th , .footForm{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: whitesmoke;
     font-family: 'Inconsolata', monospace;
 }
 
 .col-md-4 .table tr td a{
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: #22223b;
     font-family: 'Karla', sans-serif;
     
@@ -340,10 +346,6 @@ p{
     padding: 50px;
 }
 
-.linkTable{
-   text-align: center;
-}
-
 .footBg{
     margin-bottom: -20px;
 }
@@ -360,21 +362,8 @@ p{
     .jumbotron{
         width: 70%;
         height: 85%;
-        padding-right: 30px;
-        padding-left: 30px;
-    }
-
-    .jumbotron p{
-        font-size: 1.4em;
     }
     
-    .box{
-        margin: 0px 0px;
-    }
-    
-    .innerSec1  h1{
-        font-size: 3em;
-    }
     
 }
 
