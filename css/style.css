@@ -6,7 +6,7 @@
 
 html{
     scroll-behavior: smooth;
-    font-size: 62.5%;
+    font-size: 80%;
 }
 
 p{
@@ -52,7 +52,7 @@ p{
 .section1{
     background: url(/images/bgImage.png) center center no-repeat;
     height: 100vh;
-/*    clip-path:polygon(0% 0% , 100% 0% , 100% 60% , 50% 100% , 0% 60%);*/
+    clip-path:polygon(0% 0% , 100% 0% , 100% 65% , 50% 100% , 0% 65%);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -358,6 +358,10 @@ p{
 
 
 @media (max-width:768px){
+   
+    html{
+        font-size: 60%;
+    }
     
     .jumbotron{
         width: 70%;
@@ -372,6 +376,9 @@ p{
     .innerSec1  h1{
         font-size: 3rem;
 
+    }
+    .section1{
+        clip-path:polygon(0% 0% , 100% 0% , 100% 90% , 50% 100% , 0% 90%);
     }
     
 }
